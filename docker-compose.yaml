@@ -1,0 +1,6 @@
+version: '2'
+services:
+  treatment:
+    network_mode: "host"
+    restart: "always"
+    build: .
